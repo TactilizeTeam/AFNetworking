@@ -319,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"AFNetworking\" \\\n--project-company \"AFNetworking\" \\\n--company-id \"org.afnetworking\" \\\n--output build \\\n--docsetutil-path `xcode-select -print-path`/usr/bin/docsetutil \\\n--create-docset \\\n--install-docset \\\n--create-html \\\n--exit-threshold 2 \\\n--no-repeat-first-par \\\nAFNetworking";
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"AFNetworking\" \\\n--project-company \"AFNetworking\" \\\n--company-id \"org.afnetworking\" \\\n--output build \\\n--create-docset \\\n--install-docset \\\n--create-html \\\n--exit-threshold 2 \\\n--no-repeat-first-par \\\nAFNetworking";
 		};
 /* End PBXShellScriptBuildPhase section */
 
