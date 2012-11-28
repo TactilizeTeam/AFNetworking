@@ -1,5 +1,10 @@
 # Xcode
+<<<<<<< HEAD
 build/*
+=======
+.DS_Store
+build/
+>>>>>>> 402e46002384f2b718072f09c5a8624b67d473b7
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -13,4 +18,9 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+<<<<<<< HEAD
 DerivedData
+=======
+DerivedData
+.idea/
+>>>>>>> 402e46002384f2b718072f09c5a8624b67d473b7
