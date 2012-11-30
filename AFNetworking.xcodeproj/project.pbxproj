@@ -47,6 +47,10 @@
 		51CEE15215BA2AB100C2CEE9 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CEE13D15BA2AB100C2CEE9 /* AFXMLRequestOperation.m */; };
 		51CEE15315BA2AB100C2CEE9 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CEE13E15BA2AB100C2CEE9 /* UIImageView+AFNetworking.h */; };
 		51CEE15415BA2AB100C2CEE9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CEE13F15BA2AB100C2CEE9 /* UIImageView+AFNetworking.m */; };
+		51E85F541668F1B400A8C410 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E85F531668F1B400A8C410 /* MobileCoreServices.framework */; };
+		51E85F571668F1B900A8C410 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E85F561668F1B900A8C410 /* SystemConfiguration.framework */; };
+		51E85F581668F1C600A8C410 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E85F531668F1B400A8C410 /* MobileCoreServices.framework */; };
+		51E85F591668F1CD00A8C410 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E85F561668F1B900A8C410 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,8 @@
 		51CEE13D15BA2AB100C2CEE9 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		51CEE13E15BA2AB100C2CEE9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		51CEE13F15BA2AB100C2CEE9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		51E85F531668F1B400A8C410 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		51E85F561668F1B900A8C410 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E85F571668F1B900A8C410 /* SystemConfiguration.framework in Frameworks */,
+				51E85F541668F1B400A8C410 /* MobileCoreServices.framework in Frameworks */,
 				51CEE10615BA2A3B00C2CEE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E85F591668F1CD00A8C410 /* SystemConfiguration.framework in Frameworks */,
+				51E85F581668F1C600A8C410 /* MobileCoreServices.framework in Frameworks */,
 				51CEE11415BA2A3B00C2CEE9 /* SenTestingKit.framework in Frameworks */,
 				51CEE11615BA2A3B00C2CEE9 /* UIKit.framework in Frameworks */,
 				51CEE11715BA2A3B00C2CEE9 /* Foundation.framework in Frameworks */,
@@ -136,6 +146,8 @@
 		51CEE10415BA2A3B00C2CEE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51E85F561668F1B900A8C410 /* SystemConfiguration.framework */,
+				51E85F531668F1B400A8C410 /* MobileCoreServices.framework */,
 				51CEE10515BA2A3B00C2CEE9 /* Foundation.framework */,
 				51CEE11315BA2A3B00C2CEE9 /* SenTestingKit.framework */,
 				51CEE11515BA2A3B00C2CEE9 /* UIKit.framework */,
