@@ -274,7 +274,7 @@
 		51CEE0F415BA29B400C2CEE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 51CEE0F715BA29B400C2CEE9 /* Build configuration list for PBXProject "AFNetworking" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -511,6 +511,7 @@
 		51CEE15715BA2ADE00C2CEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -518,6 +519,7 @@
 		51CEE15815BA2ADE00C2CEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
